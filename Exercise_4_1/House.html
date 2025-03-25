@@ -7,19 +7,29 @@
 </head>
 <body>
     <svg width="500" height="500">
-
-        <rect x="280" y="130" width="30" height="50" fill="gray" stroke="black"/>
+        <!-- Chimney -->
+        <rect x="280" y="120" width="30" height="60" fill="gray" stroke="black"/>
+        <rect x="290" y="110" width="10" height="20" fill="gray" stroke="black"/>
+        
+        <!-- Path -->
+        <path d="M250 350 C270 390, 230 420, 240 450" stroke="black" fill="none" stroke-width="3"/>
+        
         <!-- House -->
         <rect x="150" y="200" width="200" height="150" fill="lightblue" stroke="black"/>
+        
         <!-- Roof -->
         <polygon points="150,200 250,100 350,200" fill="brown" stroke="black"/>
+        
         <!-- Door -->
         <rect x="230" y="270" width="40" height="80" fill="brown" stroke="black"/>
+        
         <!-- Windows -->
         <rect x="180" y="230" width="40" height="40" fill="white" stroke="black"/>
         <rect x="280" y="230" width="40" height="40" fill="white" stroke="black"/>
+        
         <!-- Sun -->
         <circle cx="400" cy="80" r="40" fill="yellow" stroke="orange"/>
+        
         <!-- Text -->
         <text x="200" y="370" font-family="Verdana" font-size="20" fill="black">My SVG House</text>
     </svg>
