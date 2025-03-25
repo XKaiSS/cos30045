@@ -24,8 +24,12 @@
         <rect x="230" y="270" width="40" height="80" fill="brown" stroke="black"/>
         
         <!-- Windows -->
-        <rect x="180" y="230" width="40" height="40" fill="white" stroke="black"/>
-        <rect x="280" y="230" width="40" height="40" fill="white" stroke="black"/>
+        <g transform="translate(1, 1)" fill="white" stroke="black">
+            <!-- Left Window -->
+            <rect x="180" y="230" width="40" height="40" />
+            <!-- Right Window -->
+            <rect x="280" y="230" width="40" height="40"  />
+        </g>
         
         <!-- Sun -->
         <circle cx="400" cy="80" r="40" fill="yellow" stroke="orange"/>
@@ -33,5 +37,8 @@
         <!-- Text -->
         <text x="200" y="370" font-family="Verdana" font-size="20" fill="black">My SVG House</text>
     </svg>
+
+    <h3>DOM Structure of SVG</h3>
+    <img src="dom_screenshot.png" alt="DOM Structure of SVG">
 </body>
 </html>
