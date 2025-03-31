@@ -574,7 +574,7 @@ java.lang.IllegalArgumentException: Location must be absolute: ..
 	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
-!SESSION 2025-03-31 19:09:36.277 -----------------------------------------------
+!SESSION 2025-03-31 18:23:32.441 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=17.0.5
 java.vendor=Eclipse Adoptium
@@ -582,7 +582,7 @@ BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_AU
 Framework arguments:  -keyring /Users/akai/.eclipse_keyring -showlocation
 Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/akai/.eclipse_keyring -showlocation
 
-!ENTRY org.eclipse.equinox.p2.core 4 0 2025-03-31 19:10:19.930
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-03-31 18:26:53.225
 !MESSAGE Exception during event notification
 !STACK 0
 java.lang.IllegalArgumentException: Location must be absolute: ..
@@ -595,7 +595,7 @@ java.lang.IllegalArgumentException: Location must be absolute: ..
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
 
-!ENTRY org.eclipse.equinox.p2.core 4 0 2025-03-31 19:10:19.931
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-03-31 18:26:53.227
 !MESSAGE Exception during event notification
 !STACK 0
 java.lang.IllegalArgumentException: Location must be absolute: ..
@@ -607,7 +607,7 @@ java.lang.IllegalArgumentException: Location must be absolute: ..
 	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
-!SESSION 2025-03-31 19:10:58.096 -----------------------------------------------
+!SESSION 2025-03-31 18:36:52.965 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=17.0.5
 java.vendor=Eclipse Adoptium
@@ -615,7 +615,7 @@ BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_AU
 Framework arguments:  -keyring /Users/akai/.eclipse_keyring -showlocation
 Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/akai/.eclipse_keyring -showlocation
 
-!ENTRY org.eclipse.equinox.p2.core 4 0 2025-03-31 19:11:20.507
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-03-31 18:37:27.580
 !MESSAGE Exception during event notification
 !STACK 0
 java.lang.IllegalArgumentException: Location must be absolute: ..
@@ -628,7 +628,73 @@ java.lang.IllegalArgumentException: Location must be absolute: ..
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
 
-!ENTRY org.eclipse.equinox.p2.core 4 0 2025-03-31 19:11:20.508
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-03-31 18:37:27.582
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+!SESSION 2025-03-31 18:59:41.304 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_AU
+Framework arguments:  -keyring /Users/akai/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/akai/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-03-31 19:00:05.108
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-03-31 19:00:05.109
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+!SESSION 2025-03-31 19:00:11.138 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_AU
+Framework arguments:  -keyring /Users/akai/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/akai/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-03-31 19:00:34.987
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:772)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:265)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:841)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-03-31 19:00:34.988
 !MESSAGE Exception during event notification
 !STACK 0
 java.lang.IllegalArgumentException: Location must be absolute: ..
