@@ -2177,3 +2177,36 @@ java.util.NoSuchElementException: Workflow project for ID "Exercise_1_ed767005-a
       font-weight: bold;
       padding: 2px 0.5em;
       [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-04-28 10:54:19,092 : ERROR : main :  : KnimeBrowserView :  :  : ResizeObserver loop completed with undelivered notifications. (source: http://org.knime.ui.java/workflow/Exercise_1_fb345589-5dc8-4b23-80d7-f6526c60bef0/root; line: 0)
+2025-04-28 10:59:34,624 : WARN  : comm-pool-thread-2 :  : Node : CSV Writer : 3:12 : Please specify a file
+2025-04-28 11:00:18,303 : WARN  : comm-pool-thread-2 :  : Node : CSV Writer : 3:12 : Please specify a file
+2025-04-28 11:03:51,451 : ERROR : KNIME-Worker-2-CSV Writer 3:12 :  : Node : CSV Writer : 3:12 : Execute failed: Output file 'C:\Users\aufb\Desktop\新建 Microsoft Excel 工作表.csv' exists and must not be overwritten due to user settings.
+java.io.IOException: Output file 'C:\Users\aufb\Desktop\新建 Microsoft Excel 工作表.csv' exists and must not be overwritten due to user settings.
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:217)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.writeToFile(CSVWriter2NodeModel.java:167)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:147)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:596)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1284)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:603)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.nio.file.FileAlreadyExistsException: C:\Users\aufb\Desktop\新建 Microsoft Excel 工作表.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystemProvider.newByteChannel(LocalFileSystemProvider.java:148)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:146)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:214)
+	... 16 more

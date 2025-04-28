@@ -4,12 +4,12 @@
     "nodestats": {
         "nodes": [
             {
-                "id": "org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeFactory",
-                "nodename": "CSV Writer",
-                "nrexecs": 0,
+                "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory",
+                "nodename": "CSV Reader",
+                "nrexecs": 1,
                 "nrfails": 0,
-                "exectime": 0,
-                "nrcreated": 1,
+                "exectime": 117,
+                "nrcreated": 0,
                 "nrsettingsChanged": 0,
                 "successor": "n/a",
                 "successornodename": "n/a"
@@ -20,23 +20,22 @@
         "wrappedNodes": {
         },
         "createdVia": {
-            "WEB_UI": 1
         }
     },
-    "uptime": 711407,
-    "workflowsOpened": 1,
+    "uptime": 1330841,
+    "workflowsOpened": 3,
     "remoteWorkflowsOpened": 0,
     "workflowsCreated": 0,
     "remoteWorkflowsCreated": 0,
     "columnarStorageWorkflowsOpened": 0,
-    "workflowsImported": 0,
+    "workflowsImported": 1,
     "workflowsExported": 0,
     "webUIPerspectiveSwitches": 0,
     "javaUIPerspectiveSwitches": 0,
     "lastUsedPerspective": "none",
-    "launches": 22,
+    "launches": 23,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 374326,
+    "timeSinceLastStart": 88358,
     "crashes": 0,
     "properlyShutDown": false
 }
