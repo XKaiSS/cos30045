@@ -11,9 +11,12 @@
         <nav>
             <img src="PowerIcon.png" alt="Power Logo" id="logo" onclick="navigateToHome()">
             <ul>
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="televisions.html" class="nav-link">Televisions</a></li>
-                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <ul>
+                    <li><a href="javascript:void(0);" class="nav-link" onclick="navigateTo('index.html')">Home</a></li>
+                    <li><a href="javascript:void(0);" class="nav-link" onclick="navigateTo('televisions.html')">Televisions</a></li>
+                    <li><a href="javascript:void(0);" class="nav-link" onclick="navigateTo('about.html')">About Us</a></li>
+                </ul>
+                
             </ul>
         </nav>
     </header>
@@ -21,7 +24,7 @@
     <main>
         <h1>Welcome to the Appliance Energy Consumption Website</h1>
         <p>Explore the energy consumption data of various appliances in the Australian market.</p>
-        <div></div>
+        <div class="responsive-svg-container"></div> 
         <svg></svg>
     </main>
 
