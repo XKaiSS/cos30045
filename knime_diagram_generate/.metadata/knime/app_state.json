@@ -1,0 +1,14 @@
+{
+  "version" : "5.4.3.v202503031608",
+  "projects" : [ ],
+  "mostRecentlyUsedProjects" : [ {
+    "name" : "Building a Simple Classifier",
+    "timeUsed" : "2025-04-28T10:52:17.6766017+10:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Example Workflows\\Basic Examples\\Building a Simple Classifier"
+    }
+  } ]
+}
