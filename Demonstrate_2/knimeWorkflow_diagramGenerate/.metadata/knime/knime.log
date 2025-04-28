@@ -2210,3 +2210,47 @@ Caused by: java.nio.file.FileAlreadyExistsException: C:\Users\aufb\Desktop\æ–°å»
 	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:146)
 	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:214)
 	... 16 more
+2025-04-28 15:07:42,649 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Workflow project for ID "Exercise_1_9e94be31-b9a0-4128-b1bd-0f19abecc2a4" not found. (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-04-28 15:07:42,650 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
+2025-04-28 15:07:42,650 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: Workflow project for ID "Exercise_1_9e94be31-b9a0-4128-b1bd-0f19abecc2a4" not found. (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 45)
+2025-04-28 15:08:06,875 : WARN  : Thread-1263 :  : OAuthAuthenticator :  :  : Could not stop OAuth redirect listener: null
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(Unknown Source)
+	at java.base/java.util.concurrent.CountDownLatch.await(Unknown Source)
+	at org.eclipse.jetty.io.ManagedSelector.doStop(ManagedSelector.java:137)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:182)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:205)
+	at org.eclipse.jetty.io.SelectorManager.doStop(SelectorManager.java:280)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:182)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:205)
+	at org.eclipse.jetty.server.AbstractConnector.doStop(AbstractConnector.java:375)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStop(AbstractNetworkConnector.java:82)
+	at org.eclipse.jetty.server.ServerConnector.doStop(ServerConnector.java:241)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:658)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:132)
+	at com.knime.explorer.server.rest.OAuthAuthenticator.stopServer(OAuthAuthenticator.java:733)
+	at com.knime.explorer.server.rest.OAuthAuthenticator.login(OAuthAuthenticator.java:599)
+	at com.knime.explorer.server.rest.OAuthLoginDialog.lambda$0(OAuthLoginDialog.java:179)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2025-04-28 15:08:33,075 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c serverEventHandler::Error 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: dom element hasn't been set yet (source: http://org.knime.ui.java/assets/index-L_Vmx7rg.js; line: 87)
