@@ -1,0 +1,3 @@
+/Users/akai/Desktop/knimeWorkflow_exercise_2/Data/TVData/TVdata.csv
+/Users/akai/Desktop/cos30045/Exercise_2/knimeWorkflow_diagramGenerate/Data/TVData/TVdata.csv
+D:\Users\aufb\knime-workspace\COS30045\Data\TVData\TVdata.csv

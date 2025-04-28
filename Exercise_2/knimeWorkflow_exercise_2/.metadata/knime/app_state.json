@@ -1,17 +1,9 @@
 {
   "version" : "5.4.3.v202503031608",
-  "projects" : [ {
-    "name" : "Exercise_1",
-    "active" : true,
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "relativePath" : "Exercise_1"
-    }
-  } ],
+  "projects" : [ ],
   "mostRecentlyUsedProjects" : [ {
     "name" : "Exercise_1",
-    "timeUsed" : "2025-03-31T19:11:21.978346+11:00",
+    "timeUsed" : "2025-03-31T14:04:06.7048947+11:00",
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
